@@ -1,0 +1,148 @@
+2024-03-19 12:29:01,600 - ERROR - An exception occurred: Message: move target out of bounds
+  (Session info: chrome=122.0.6261.129)
+Stacktrace:
+	GetHandleVerifier [0x00007FF671F7AD32+56930]
+	(No symbol) [0x00007FF671EEF632]
+	(No symbol) [0x00007FF671DA419D]
+	(No symbol) [0x00007FF671E30610]
+	(No symbol) [0x00007FF671E0BC9A]
+	(No symbol) [0x00007FF671E281E2]
+	(No symbol) [0x00007FF671E0BA43]
+	(No symbol) [0x00007FF671DDD438]
+	(No symbol) [0x00007FF671DDE4D1]
+	GetHandleVerifier [0x00007FF6722F6ABD+3709933]
+	GetHandleVerifier [0x00007FF67234FFFD+4075821]
+	GetHandleVerifier [0x00007FF67234818F+4043455]
+	GetHandleVerifier [0x00007FF672019766+706710]
+	(No symbol) [0x00007FF671EFB90F]
+	(No symbol) [0x00007FF671EF6AF4]
+	(No symbol) [0x00007FF671EF6C4C]
+	(No symbol) [0x00007FF671EE6904]
+	BaseThreadInitThunk [0x00007FFC0A98257D+29]
+	RtlUserThreadStart [0x00007FFC0BF4AA58+40]
+
+2024-03-19 12:29:14,168 - ERROR - An exception occurred: Message: move target out of bounds
+  (Session info: chrome=122.0.6261.129)
+Stacktrace:
+	GetHandleVerifier [0x00007FF671F7AD32+56930]
+	(No symbol) [0x00007FF671EEF632]
+	(No symbol) [0x00007FF671DA419D]
+	(No symbol) [0x00007FF671E30610]
+	(No symbol) [0x00007FF671E0BC9A]
+	(No symbol) [0x00007FF671E281E2]
+	(No symbol) [0x00007FF671E0BA43]
+	(No symbol) [0x00007FF671DDD438]
+	(No symbol) [0x00007FF671DDE4D1]
+	GetHandleVerifier [0x00007FF6722F6ABD+3709933]
+	GetHandleVerifier [0x00007FF67234FFFD+4075821]
+	GetHandleVerifier [0x00007FF67234818F+4043455]
+	GetHandleVerifier [0x00007FF672019766+706710]
+	(No symbol) [0x00007FF671EFB90F]
+	(No symbol) [0x00007FF671EF6AF4]
+	(No symbol) [0x00007FF671EF6C4C]
+	(No symbol) [0x00007FF671EE6904]
+	BaseThreadInitThunk [0x00007FFC0A98257D+29]
+	RtlUserThreadStart [0x00007FFC0BF4AA58+40]
+
+2024-03-19 12:30:57,121 - ERROR - An exception occurred: Message: move target out of bounds
+  (Session info: chrome=122.0.6261.129)
+Stacktrace:
+	GetHandleVerifier [0x00007FF671F7AD32+56930]
+	(No symbol) [0x00007FF671EEF632]
+	(No symbol) [0x00007FF671DA419D]
+	(No symbol) [0x00007FF671E30610]
+	(No symbol) [0x00007FF671E0BC9A]
+	(No symbol) [0x00007FF671E281E2]
+	(No symbol) [0x00007FF671E0BA43]
+	(No symbol) [0x00007FF671DDD438]
+	(No symbol) [0x00007FF671DDE4D1]
+	GetHandleVerifier [0x00007FF6722F6ABD+3709933]
+	GetHandleVerifier [0x00007FF67234FFFD+4075821]
+	GetHandleVerifier [0x00007FF67234818F+4043455]
+	GetHandleVerifier [0x00007FF672019766+706710]
+	(No symbol) [0x00007FF671EFB90F]
+	(No symbol) [0x00007FF671EF6AF4]
+	(No symbol) [0x00007FF671EF6C4C]
+	(No symbol) [0x00007FF671EE6904]
+	BaseThreadInitThunk [0x00007FFC0A98257D+29]
+	RtlUserThreadStart [0x00007FFC0BF4AA58+40]
+
+2024-03-19 12:33:23,107 - ERROR - An exception occurred: Message: move target out of bounds
+  (Session info: chrome=122.0.6261.129)
+Stacktrace:
+	GetHandleVerifier [0x00007FF671F7AD32+56930]
+	(No symbol) [0x00007FF671EEF632]
+	(No symbol) [0x00007FF671DA419D]
+	(No symbol) [0x00007FF671E30610]
+	(No symbol) [0x00007FF671E0BC9A]
+	(No symbol) [0x00007FF671E281E2]
+	(No symbol) [0x00007FF671E0BA43]
+	(No symbol) [0x00007FF671DDD438]
+	(No symbol) [0x00007FF671DDE4D1]
+	GetHandleVerifier [0x00007FF6722F6ABD+3709933]
+	GetHandleVerifier [0x00007FF67234FFFD+4075821]
+	GetHandleVerifier [0x00007FF67234818F+4043455]
+	GetHandleVerifier [0x00007FF672019766+706710]
+	(No symbol) [0x00007FF671EFB90F]
+	(No symbol) [0x00007FF671EF6AF4]
+	(No symbol) [0x00007FF671EF6C4C]
+	(No symbol) [0x00007FF671EE6904]
+	BaseThreadInitThunk [0x00007FFC0A98257D+29]
+	RtlUserThreadStart [0x00007FFC0BF4AA58+40]
+
+2024-03-19 12:35:11,923 - INFO - The script executed successfully
+2024-03-19 12:36:01,804 - ERROR - An exception occurred: There's difference!1
+2024-03-19 12:42:42,422 - ERROR - An exception occurred: There's difference!1
+2024-03-19 12:43:11,440 - ERROR - An exception occurred: There's difference!1
+2024-03-19 12:43:44,476 - ERROR - An exception occurred: There's difference!2
+2024-03-19 12:44:12,659 - INFO - The script executed successfully
+2024-03-19 12:45:50,889 - ERROR - An exception occurred: There's difference!1
+2024-03-19 13:05:05,323 - ERROR - An exception occurred: Wrong data!
+2024-03-19 13:06:31,273 - ERROR - An exception occurred: Wrong data!
+2024-03-19 13:17:56,504 - ERROR - An exception occurred: Expected date: 2024-05-01, Actual date: <selenium.webdriver.remote.webelement.WebElement (session="ad89400c9a3f09f92fd4dac356381d47", element="f.A26C404095DED388759C697ED15003D3.d.38331E765C12F093D11B6C8171468FFD.e.77")>
+2024-03-19 13:19:26,547 - INFO - The script executed successfully
+2024-03-19 13:22:43,732 - INFO - The script executed successfully
+2024-03-19 13:23:09,177 - INFO - The script executed successfully
+2024-03-19 13:23:26,506 - INFO - The script executed successfully
+2024-03-20 20:37:13,797 - INFO - The script executed successfully
+2024-03-20 20:37:41,957 - INFO - The script executed successfully
+2024-03-20 21:11:22,491 - INFO - The script executed successfully
+2024-03-21 12:12:17,666 - ERROR - An exception occurred: No upper text
+2024-03-21 12:13:04,230 - ERROR - An exception occurred: No upper text
+2024-03-21 12:13:48,170 - ERROR - An exception occurred: No upper text
+2024-03-21 12:16:27,853 - INFO - The script executed successfully
+2024-03-21 13:00:21,228 - ERROR - An exception occurred: Wrong value in table
+2024-03-21 13:01:27,416 - ERROR - An exception occurred: Wrong value in table
+2024-03-21 13:02:30,744 - ERROR - An exception occurred: Wrong value in table
+2024-03-21 13:03:01,255 - ERROR - An exception occurred: Wrong value in table. Expected: , Actual: Oranges
+2024-03-21 13:05:55,425 - ERROR - An exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='post-1076']/div/figure/table/tbody/tr[0]/td[1]"}
+  (Session info: chrome=122.0.6261.131); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF77F06AD32+56930]
+	(No symbol) [0x00007FF77EFDF632]
+	(No symbol) [0x00007FF77EE942E5]
+	(No symbol) [0x00007FF77EED98ED]
+	(No symbol) [0x00007FF77EED9A2C]
+	(No symbol) [0x00007FF77EF1A967]
+	(No symbol) [0x00007FF77EEFBCDF]
+	(No symbol) [0x00007FF77EF181E2]
+	(No symbol) [0x00007FF77EEFBA43]
+	(No symbol) [0x00007FF77EECD438]
+	(No symbol) [0x00007FF77EECE4D1]
+	GetHandleVerifier [0x00007FF77F3E6ABD+3709933]
+	GetHandleVerifier [0x00007FF77F43FFFD+4075821]
+	GetHandleVerifier [0x00007FF77F43818F+4043455]
+	GetHandleVerifier [0x00007FF77F109766+706710]
+	(No symbol) [0x00007FF77EFEB90F]
+	(No symbol) [0x00007FF77EFE6AF4]
+	(No symbol) [0x00007FF77EFE6C4C]
+	(No symbol) [0x00007FF77EFD6904]
+	BaseThreadInitThunk [0x00007FFE035C257D+29]
+	RtlUserThreadStart [0x00007FFE03ACAA58+40]
+
+2024-03-21 13:07:19,481 - ERROR - An exception occurred: Wrong value in table. Expected: Oranges, Actual: Item
+2024-03-21 13:08:24,247 - INFO - The script executed successfully
+2024-03-21 13:09:30,816 - ERROR - An exception occurred: Wrong value in table. Expected: $3.99, Actual: Oranges
+2024-03-21 13:10:28,226 - INFO - The script executed successfully
+2024-03-21 13:22:16,251 - INFO - The script executed successfully
+2024-03-21 13:53:48,599 - ERROR - An exception occurred: It's not Bangladesh
