@@ -146,3 +146,255 @@ Stacktrace:
 2024-03-21 13:10:28,226 - INFO - The script executed successfully
 2024-03-21 13:22:16,251 - INFO - The script executed successfully
 2024-03-21 13:53:48,599 - ERROR - An exception occurred: It's not Bangladesh
+2024-03-22 11:54:32,685 - INFO - The script executed successfully
+2024-03-22 11:56:23,289 - INFO - The script executed successfully
+2024-03-22 11:57:32,829 - ERROR - An exception occurred: No New Tab here
+2024-03-22 12:18:56,653 - ERROR - An exception occurred: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7CCC9AD32+56930]
+	(No symbol) [0x00007FF7CCC0F632]
+	(No symbol) [0x00007FF7CCAC42E5]
+	(No symbol) [0x00007FF7CCAA1D4C]
+	(No symbol) [0x00007FF7CCB323F7]
+	(No symbol) [0x00007FF7CCB47891]
+	(No symbol) [0x00007FF7CCB2BA43]
+	(No symbol) [0x00007FF7CCAFD438]
+	(No symbol) [0x00007FF7CCAFE4D1]
+	GetHandleVerifier [0x00007FF7CD016ABD+3709933]
+	GetHandleVerifier [0x00007FF7CD06FFFD+4075821]
+	GetHandleVerifier [0x00007FF7CD06818F+4043455]
+	GetHandleVerifier [0x00007FF7CCD39766+706710]
+	(No symbol) [0x00007FF7CCC1B90F]
+	(No symbol) [0x00007FF7CCC16AF4]
+	(No symbol) [0x00007FF7CCC16C4C]
+	(No symbol) [0x00007FF7CCC06904]
+	BaseThreadInitThunk [0x00007FFB3F37257D+29]
+	RtlUserThreadStart [0x00007FFB4068AA58+40]
+
+2024-03-22 12:31:00,458 - ERROR - An exception occurred: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7CCC9AD32+56930]
+	(No symbol) [0x00007FF7CCC0F632]
+	(No symbol) [0x00007FF7CCAC42E5]
+	(No symbol) [0x00007FF7CCAA1D4C]
+	(No symbol) [0x00007FF7CCB323F7]
+	(No symbol) [0x00007FF7CCB47891]
+	(No symbol) [0x00007FF7CCB2BA43]
+	(No symbol) [0x00007FF7CCAFD438]
+	(No symbol) [0x00007FF7CCAFE4D1]
+	GetHandleVerifier [0x00007FF7CD016ABD+3709933]
+	GetHandleVerifier [0x00007FF7CD06FFFD+4075821]
+	GetHandleVerifier [0x00007FF7CD06818F+4043455]
+	GetHandleVerifier [0x00007FF7CCD39766+706710]
+	(No symbol) [0x00007FF7CCC1B90F]
+	(No symbol) [0x00007FF7CCC16AF4]
+	(No symbol) [0x00007FF7CCC16C4C]
+	(No symbol) [0x00007FF7CCC06904]
+	BaseThreadInitThunk [0x00007FFB3F37257D+29]
+	RtlUserThreadStart [0x00007FFB4068AA58+40]
+
+2024-03-22 12:35:07,383 - ERROR - An exception occurred: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7CCC9AD32+56930]
+	(No symbol) [0x00007FF7CCC0F632]
+	(No symbol) [0x00007FF7CCAC42E5]
+	(No symbol) [0x00007FF7CCAA1D4C]
+	(No symbol) [0x00007FF7CCB323F7]
+	(No symbol) [0x00007FF7CCB47891]
+	(No symbol) [0x00007FF7CCB2BA43]
+	(No symbol) [0x00007FF7CCAFD438]
+	(No symbol) [0x00007FF7CCAFE4D1]
+	GetHandleVerifier [0x00007FF7CD016ABD+3709933]
+	GetHandleVerifier [0x00007FF7CD06FFFD+4075821]
+	GetHandleVerifier [0x00007FF7CD06818F+4043455]
+	GetHandleVerifier [0x00007FF7CCD39766+706710]
+	(No symbol) [0x00007FF7CCC1B90F]
+	(No symbol) [0x00007FF7CCC16AF4]
+	(No symbol) [0x00007FF7CCC16C4C]
+	(No symbol) [0x00007FF7CCC06904]
+	BaseThreadInitThunk [0x00007FFB3F37257D+29]
+	RtlUserThreadStart [0x00007FFB4068AA58+40]
+
+2024-03-22 12:37:27,736 - ERROR - An exception occurred: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7CCC9AD32+56930]
+	(No symbol) [0x00007FF7CCC0F632]
+	(No symbol) [0x00007FF7CCAC42E5]
+	(No symbol) [0x00007FF7CCAA1D4C]
+	(No symbol) [0x00007FF7CCB323F7]
+	(No symbol) [0x00007FF7CCB47891]
+	(No symbol) [0x00007FF7CCB2BA43]
+	(No symbol) [0x00007FF7CCAFD438]
+	(No symbol) [0x00007FF7CCAFE4D1]
+	GetHandleVerifier [0x00007FF7CD016ABD+3709933]
+	GetHandleVerifier [0x00007FF7CD06FFFD+4075821]
+	GetHandleVerifier [0x00007FF7CD06818F+4043455]
+	GetHandleVerifier [0x00007FF7CCD39766+706710]
+	(No symbol) [0x00007FF7CCC1B90F]
+	(No symbol) [0x00007FF7CCC16AF4]
+	(No symbol) [0x00007FF7CCC16C4C]
+	(No symbol) [0x00007FF7CCC06904]
+	BaseThreadInitThunk [0x00007FFB3F37257D+29]
+	RtlUserThreadStart [0x00007FFB4068AA58+40]
+
+2024-03-22 12:38:38,711 - ERROR - An exception occurred: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7CCC9AD32+56930]
+	(No symbol) [0x00007FF7CCC0F632]
+	(No symbol) [0x00007FF7CCAC42E5]
+	(No symbol) [0x00007FF7CCAA1D4C]
+	(No symbol) [0x00007FF7CCB323F7]
+	(No symbol) [0x00007FF7CCB47891]
+	(No symbol) [0x00007FF7CCB2BA43]
+	(No symbol) [0x00007FF7CCAFD438]
+	(No symbol) [0x00007FF7CCAFE4D1]
+	GetHandleVerifier [0x00007FF7CD016ABD+3709933]
+	GetHandleVerifier [0x00007FF7CD06FFFD+4075821]
+	GetHandleVerifier [0x00007FF7CD06818F+4043455]
+	GetHandleVerifier [0x00007FF7CCD39766+706710]
+	(No symbol) [0x00007FF7CCC1B90F]
+	(No symbol) [0x00007FF7CCC16AF4]
+	(No symbol) [0x00007FF7CCC16C4C]
+	(No symbol) [0x00007FF7CCC06904]
+	BaseThreadInitThunk [0x00007FFB3F37257D+29]
+	RtlUserThreadStart [0x00007FFB4068AA58+40]
+
+2024-03-22 12:40:14,818 - ERROR - An exception occurred: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7CCC9AD32+56930]
+	(No symbol) [0x00007FF7CCC0F632]
+	(No symbol) [0x00007FF7CCAC42E5]
+	(No symbol) [0x00007FF7CCAA1D4C]
+	(No symbol) [0x00007FF7CCB323F7]
+	(No symbol) [0x00007FF7CCB47891]
+	(No symbol) [0x00007FF7CCB2BA43]
+	(No symbol) [0x00007FF7CCAFD438]
+	(No symbol) [0x00007FF7CCAFE4D1]
+	GetHandleVerifier [0x00007FF7CD016ABD+3709933]
+	GetHandleVerifier [0x00007FF7CD06FFFD+4075821]
+	GetHandleVerifier [0x00007FF7CD06818F+4043455]
+	GetHandleVerifier [0x00007FF7CCD39766+706710]
+	(No symbol) [0x00007FF7CCC1B90F]
+	(No symbol) [0x00007FF7CCC16AF4]
+	(No symbol) [0x00007FF7CCC16C4C]
+	(No symbol) [0x00007FF7CCC06904]
+	BaseThreadInitThunk [0x00007FFB3F37257D+29]
+	RtlUserThreadStart [0x00007FFB4068AA58+40]
+
+2024-03-22 12:49:07,183 - ERROR - An exception occurred: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7CCC9AD32+56930]
+	(No symbol) [0x00007FF7CCC0F632]
+	(No symbol) [0x00007FF7CCAC42E5]
+	(No symbol) [0x00007FF7CCAA1D4C]
+	(No symbol) [0x00007FF7CCB323F7]
+	(No symbol) [0x00007FF7CCB47891]
+	(No symbol) [0x00007FF7CCB2BA43]
+	(No symbol) [0x00007FF7CCAFD438]
+	(No symbol) [0x00007FF7CCAFE4D1]
+	GetHandleVerifier [0x00007FF7CD016ABD+3709933]
+	GetHandleVerifier [0x00007FF7CD06FFFD+4075821]
+	GetHandleVerifier [0x00007FF7CD06818F+4043455]
+	GetHandleVerifier [0x00007FF7CCD39766+706710]
+	(No symbol) [0x00007FF7CCC1B90F]
+	(No symbol) [0x00007FF7CCC16AF4]
+	(No symbol) [0x00007FF7CCC16C4C]
+	(No symbol) [0x00007FF7CCC06904]
+	BaseThreadInitThunk [0x00007FFB3F37257D+29]
+	RtlUserThreadStart [0x00007FFB4068AA58+40]
+
+2024-03-22 12:51:24,495 - ERROR - An exception occurred: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7CCC9AD32+56930]
+	(No symbol) [0x00007FF7CCC0F632]
+	(No symbol) [0x00007FF7CCAC42E5]
+	(No symbol) [0x00007FF7CCAA1D4C]
+	(No symbol) [0x00007FF7CCB323F7]
+	(No symbol) [0x00007FF7CCB47891]
+	(No symbol) [0x00007FF7CCB2BA43]
+	(No symbol) [0x00007FF7CCAFD438]
+	(No symbol) [0x00007FF7CCAFE4D1]
+	GetHandleVerifier [0x00007FF7CD016ABD+3709933]
+	GetHandleVerifier [0x00007FF7CD06FFFD+4075821]
+	GetHandleVerifier [0x00007FF7CD06818F+4043455]
+	GetHandleVerifier [0x00007FF7CCD39766+706710]
+	(No symbol) [0x00007FF7CCC1B90F]
+	(No symbol) [0x00007FF7CCC16AF4]
+	(No symbol) [0x00007FF7CCC16C4C]
+	(No symbol) [0x00007FF7CCC06904]
+	BaseThreadInitThunk [0x00007FFB3F37257D+29]
+	RtlUserThreadStart [0x00007FFB4068AA58+40]
+
+2024-03-22 12:57:13,184 - ERROR - An exception occurred: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7CCC9AD32+56930]
+	(No symbol) [0x00007FF7CCC0F632]
+	(No symbol) [0x00007FF7CCAC42E5]
+	(No symbol) [0x00007FF7CCAA1D4C]
+	(No symbol) [0x00007FF7CCB323F7]
+	(No symbol) [0x00007FF7CCB3874B]
+	(No symbol) [0x00007FF7CCB2BC60]
+	(No symbol) [0x00007FF7CCAFD438]
+	(No symbol) [0x00007FF7CCAFE4D1]
+	GetHandleVerifier [0x00007FF7CD016ABD+3709933]
+	GetHandleVerifier [0x00007FF7CD06FFFD+4075821]
+	GetHandleVerifier [0x00007FF7CD06818F+4043455]
+	GetHandleVerifier [0x00007FF7CCD39766+706710]
+	(No symbol) [0x00007FF7CCC1B90F]
+	(No symbol) [0x00007FF7CCC16AF4]
+	(No symbol) [0x00007FF7CCC16C4C]
+	(No symbol) [0x00007FF7CCC06904]
+	BaseThreadInitThunk [0x00007FFB3F37257D+29]
+	RtlUserThreadStart [0x00007FFB4068AA58+40]
+
+2024-03-22 12:57:52,832 - ERROR - An exception occurred: No New Tab here
+2024-03-22 12:58:40,717 - ERROR - An exception occurred: No New Tab here
+2024-03-22 12:59:23,617 - ERROR - An exception occurred: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7CCC9AD32+56930]
+	(No symbol) [0x00007FF7CCC0F632]
+	(No symbol) [0x00007FF7CCAC42E5]
+	(No symbol) [0x00007FF7CCAA1D4C]
+	(No symbol) [0x00007FF7CCB323F7]
+	(No symbol) [0x00007FF7CCB3874B]
+	(No symbol) [0x00007FF7CCB2BC60]
+	(No symbol) [0x00007FF7CCAFD438]
+	(No symbol) [0x00007FF7CCAFE4D1]
+	GetHandleVerifier [0x00007FF7CD016ABD+3709933]
+	GetHandleVerifier [0x00007FF7CD06FFFD+4075821]
+	GetHandleVerifier [0x00007FF7CD06818F+4043455]
+	GetHandleVerifier [0x00007FF7CCD39766+706710]
+	(No symbol) [0x00007FF7CCC1B90F]
+	(No symbol) [0x00007FF7CCC16AF4]
+	(No symbol) [0x00007FF7CCC16C4C]
+	(No symbol) [0x00007FF7CCC06904]
+	BaseThreadInitThunk [0x00007FFB3F37257D+29]
+	RtlUserThreadStart [0x00007FFB4068AA58+40]
+
+2024-03-22 13:00:24,711 - INFO - The script executed successfully
+2024-03-22 13:02:35,535 - ERROR - An exception occurred: 'NoneType' object has no attribute 'click'
+2024-03-22 13:02:50,217 - ERROR - An exception occurred: Wrong url!
+2024-03-22 13:06:13,920 - INFO - The script executed successfully
+2024-03-22 13:06:57,360 - INFO - The script executed successfully
+2024-03-22 13:07:20,389 - INFO - The script executed successfully
+2024-03-22 13:07:51,181 - INFO - The script executed successfully
