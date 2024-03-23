@@ -398,3 +398,113 @@ Stacktrace:
 2024-03-22 13:06:57,360 - INFO - The script executed successfully
 2024-03-22 13:07:20,389 - INFO - The script executed successfully
 2024-03-22 13:07:51,181 - INFO - The script executed successfully
+2024-03-23 10:53:06,828 - ERROR - An exception occurred: Message: move target out of bounds
+  (Session info: chrome=122.0.6261.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF66B1BAD32+56930]
+	(No symbol) [0x00007FF66B12F632]
+	(No symbol) [0x00007FF66AFE419D]
+	(No symbol) [0x00007FF66B070610]
+	(No symbol) [0x00007FF66B04BC9A]
+	(No symbol) [0x00007FF66B0681E2]
+	(No symbol) [0x00007FF66B04BA43]
+	(No symbol) [0x00007FF66B01D438]
+	(No symbol) [0x00007FF66B01E4D1]
+	GetHandleVerifier [0x00007FF66B536ABD+3709933]
+	GetHandleVerifier [0x00007FF66B58FFFD+4075821]
+	GetHandleVerifier [0x00007FF66B58818F+4043455]
+	GetHandleVerifier [0x00007FF66B259766+706710]
+	(No symbol) [0x00007FF66B13B90F]
+	(No symbol) [0x00007FF66B136AF4]
+	(No symbol) [0x00007FF66B136C4C]
+	(No symbol) [0x00007FF66B126904]
+	BaseThreadInitThunk [0x00007FF9A944257D+29]
+	RtlUserThreadStart [0x00007FF9AA04AA58+40]
+
+2024-03-23 10:53:52,864 - ERROR - An exception occurred: Message: move target out of bounds
+  (Session info: chrome=122.0.6261.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF66B1BAD32+56930]
+	(No symbol) [0x00007FF66B12F632]
+	(No symbol) [0x00007FF66AFE419D]
+	(No symbol) [0x00007FF66B070610]
+	(No symbol) [0x00007FF66B04BC9A]
+	(No symbol) [0x00007FF66B0681E2]
+	(No symbol) [0x00007FF66B04BA43]
+	(No symbol) [0x00007FF66B01D438]
+	(No symbol) [0x00007FF66B01E4D1]
+	GetHandleVerifier [0x00007FF66B536ABD+3709933]
+	GetHandleVerifier [0x00007FF66B58FFFD+4075821]
+	GetHandleVerifier [0x00007FF66B58818F+4043455]
+	GetHandleVerifier [0x00007FF66B259766+706710]
+	(No symbol) [0x00007FF66B13B90F]
+	(No symbol) [0x00007FF66B136AF4]
+	(No symbol) [0x00007FF66B136C4C]
+	(No symbol) [0x00007FF66B126904]
+	BaseThreadInitThunk [0x00007FF9A944257D+29]
+	RtlUserThreadStart [0x00007FF9AA04AA58+40]
+
+2024-03-23 10:55:13,734 - ERROR - An exception occurred: Message: move target out of bounds
+  (Session info: chrome=122.0.6261.131)
+Stacktrace:
+	GetHandleVerifier [0x00007FF66B1BAD32+56930]
+	(No symbol) [0x00007FF66B12F632]
+	(No symbol) [0x00007FF66AFE419D]
+	(No symbol) [0x00007FF66B070610]
+	(No symbol) [0x00007FF66B04BC9A]
+	(No symbol) [0x00007FF66B0681E2]
+	(No symbol) [0x00007FF66B04BA43]
+	(No symbol) [0x00007FF66B01D438]
+	(No symbol) [0x00007FF66B01E4D1]
+	GetHandleVerifier [0x00007FF66B536ABD+3709933]
+	GetHandleVerifier [0x00007FF66B58FFFD+4075821]
+	GetHandleVerifier [0x00007FF66B58818F+4043455]
+	GetHandleVerifier [0x00007FF66B259766+706710]
+	(No symbol) [0x00007FF66B13B90F]
+	(No symbol) [0x00007FF66B136AF4]
+	(No symbol) [0x00007FF66B136C4C]
+	(No symbol) [0x00007FF66B126904]
+	BaseThreadInitThunk [0x00007FF9A944257D+29]
+	RtlUserThreadStart [0x00007FF9AA04AA58+40]
+
+2024-03-23 10:57:02,936 - ERROR - An exception occurred: Wrong text
+2024-03-23 11:01:17,464 - ERROR - An exception occurred: Wrong text
+2024-03-23 11:01:51,927 - ERROR - An exception occurred: Wrong text
+2024-03-23 11:02:58,748 - ERROR - An exception occurred: Wrong text
+2024-03-23 11:05:13,570 - ERROR - An exception occurred: Wrong text
+2024-03-23 11:05:47,376 - ERROR - An exception occurred: Wrong text
+2024-03-23 11:07:14,409 - ERROR - An exception occurred: Wrong text
+2024-03-23 11:11:18,775 - ERROR - An exception occurred: Wrong text
+2024-03-23 11:14:53,068 - ERROR - An exception occurred: Wrong text
+2024-03-23 11:15:14,826 - ERROR - An exception occurred: Wrong text
+2024-03-23 11:48:00,325 - INFO - The script executed successfully
+2024-03-23 11:49:58,868 - ERROR - An exception occurred: Wrong text
+2024-03-23 11:51:32,521 - ERROR - An exception occurred: Wrong text
+2024-03-23 11:52:30,863 - ERROR - An exception occurred: Wrong text
+2024-03-23 11:53:00,338 - ERROR - An exception occurred: Wrong text
+2024-03-23 11:55:25,474 - ERROR - An exception occurred: Wrong text
+2024-03-23 11:57:08,152 - ERROR - An exception occurred: Wrong text
+2024-03-23 11:57:24,983 - ERROR - An exception occurred: Wrong text
+2024-03-23 11:57:49,119 - ERROR - An exception occurred: Wrong text
+2024-03-23 11:58:38,294 - ERROR - An exception occurred: Wrong text
+2024-03-23 11:59:10,831 - ERROR - An exception occurred: Wrong text
+2024-03-23 11:59:25,816 - ERROR - An exception occurred: Wrong text
+2024-03-23 11:59:54,021 - ERROR - An exception occurred: Wrong text
+2024-03-23 12:00:22,717 - ERROR - An exception occurred: Wrong text
+2024-03-23 12:00:49,381 - ERROR - An exception occurred: Wrong text
+2024-03-23 12:02:26,568 - ERROR - An exception occurred: 'NoneType' object has no attribute 'pause'
+2024-03-23 12:02:50,672 - ERROR - An exception occurred: Wrong text
+2024-03-23 12:04:19,027 - INFO - The script executed successfully
+2024-03-23 17:10:30,891 - ERROR - An exception occurred: ActionChains.drag_and_drop_by_offset() missing 1 required positional argument: 'yoffset'
+2024-03-23 17:10:59,779 - ERROR - An exception occurred: ActionChains.drag_and_drop_by_offset() missing 1 required positional argument: 'yoffset'
+2024-03-23 17:11:50,554 - INFO - The script executed successfully
+2024-03-23 17:13:37,305 - INFO - The script executed successfully
+2024-03-23 17:17:19,352 - INFO - The script executed successfully
+2024-03-23 17:18:07,980 - INFO - The script executed successfully
+2024-03-23 17:20:03,860 - ERROR - An exception occurred: 'NoneType' object has no attribute 'pause'
+2024-03-23 17:20:21,875 - INFO - The script executed successfully
+2024-03-23 17:22:01,097 - ERROR - An exception occurred: 'ActionChains' object has no attribute 'realese'
+2024-03-23 17:24:04,588 - INFO - The script executed successfully
+2024-03-23 17:24:55,051 - INFO - The script executed successfully
+2024-03-23 17:25:15,655 - INFO - The script executed successfully
+2024-03-23 17:25:30,468 - INFO - The script executed successfully
