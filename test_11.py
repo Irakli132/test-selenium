@@ -1,6 +1,7 @@
 import datetime
 import time
 import logging
+from faker import Faker
 import requests
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -51,35 +52,50 @@ for stylesheet in stylesheets:
 
 driver.execute_script("window.scrollBy(0, 250);")
 
-driver.find_element(By.XPATH, "//*[@id='post-36']/div/div[2]/div/div[2]/div[4]/div/a").click()
+driver.find_element(By.XPATH, "//*[@id='post-36']/div/div[2]/div/div[3]/div[4]/div/a").click()
 
 try:
+    pdf_url = "https://practice-automation.com/download/download-file/"
+    pdf_normal_text_link = driver.find_element(By.XPATH, "//*[@id='post-1042']/div/div[1]/div/div/div/div[2]/h3/a")
+    pdf_normal_text_link_value = pdf_normal_text_link.get_attribute("href")
+    assert pdf_normal_text_link_value == pdf_url, "Error with text first link!"
 
-    apple_map = WebDriverWait(driver, 10).until(
-    EC.visibility_of_element_located((By.XPATH, "//*[@id='post-1023']/div/div[6]/div/div/div/div/div"))
-)
-    driver.execute_script("arguments[0].scrollIntoView(true);", apple_map)
+    response_pdf = requests.get(pdf_url)
+    if response_pdf.status_code == 200:
+        print("A PDF file available for download")
+    else:
+        print("A PDF file not available for download")
+
+    WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//*[@id='post-1042']/div/div[1]/div/div/div/div[3]/a")))
+
+    docx_url = "https://practice-automation.com/download/file-download-form/"
+    docx_normal_text_link = driver.find_element(By.XPATH, "//*[@id='post-1042']/div/div[3]/div/div/div/div[2]/h3/a")
+    docx_normal_text_link_value = docx_normal_text_link.get_attribute("href")
+    assert docx_normal_text_link_value == docx_url, "Error with text first link!"
+
+    response_docx = requests.get(docx_url)
+    if response_docx.status_code == 200:
+        print("A DOCX file available for download")
+    else:
+        print("A DOCX file not available for download")
+
+    docx_download_button = driver.find_element(By.XPATH, "//*[@id='post-1042']/div/div[3]/div/div/div/div[3]/a")
+    docx_download_button.click()
+    
+    driver.switch_to.frame('wpdm-lock-frame')
+    time.sleep(2)
+    fake = Faker()
+    random_word = fake.word()
+    input_password = driver.find_element(By.CSS_SELECTOR, "[id^='password_']")
+    input_password.send_keys(random_word)
+    input_password.send_keys(Keys.ENTER)
     time.sleep(5)
-    pin = driver.find_element(By.XPATH, "//*[@id='post-1023']/div/div[6]/div/div/div/div/div/div[1]//div[1]/div")
-    driver.execute_script("arguments[0].click();", pin)
-    print("Check")
-    city = driver.find_element(By.XPATH, "//*[@id='post-1023']/div/div[6]/div/div/div/div/div/div[1]/div[2]/div").text
-    city_state_country = driver.find_element(By.XPATH, "//*[@id='post-1023']/div/div[6]/div/div/div/div/div/div[1]/div[2]/p").text
-    assert city == "Orlando" and city_state_country == "Orlando, Florida, United States", "Wrong country!"
-    zoom_out = driver.find_element(By.XPATH, "//*[@id='post-1023']/div/div[6]/div/div/div/div/div/div[2]//div[2]/div/div[3]")
-    for _ in range(5):  
-        zoom_out.click()
-    driver.find_element(By.XPATH, "//*[@id='to-top']").click()
-
-    actions = ActionChains(driver)
-    block = driver.find_element(By.XPATH, "//*[@id='moveMeHeader']")
-    actions.click_and_hold(block).move_by_offset(1500, 0).pause(3).perform()
-    now_date = datetime.datetime.now().strftime("%Y.%m.%d.%H.%M.%S.")
-    name_screenshot = 'screenshot-' + now_date + '.png'
-    driver.save_screenshot('screenshots/' + name_screenshot)
-
-
-
+    driver.find_element(By.XPATH,"//*[@id='msg_921']/div").click()
+    WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.CSS_SELECTOR, "[id^='password_']"))
+    )
+    input_password.send_keys("automateNow")
+    input_password.send_keys(Keys.ENTER)
 
 except Exception as e:
     logging.error("An exception occurred: %s" % str(e))
