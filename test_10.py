@@ -54,6 +54,12 @@ driver.execute_script("window.scrollBy(0, 250);")
 driver.find_element(By.XPATH, "//*[@id='post-36']/div/div[2]/div/div[2]/div[4]/div/a").click()
 
 try:
+    actions = ActionChains(driver)
+    block = driver.find_element(By.XPATH, "//*[@id='moveMeHeader']")
+    actions.click_and_hold(block).move_by_offset(1500, 0).pause(3).perform()
+    now_date = datetime.datetime.now().strftime("%Y.%m.%d.%H.%M.%S.")
+    name_screenshot = 'screenshot-' + now_date + '.png'
+    driver.save_screenshot('screenshots/' + name_screenshot)
 
     apple_map = WebDriverWait(driver, 10).until(
     EC.visibility_of_element_located((By.XPATH, "//*[@id='post-1023']/div/div[6]/div/div/div/div/div"))
@@ -71,12 +77,6 @@ try:
         zoom_out.click()
     driver.find_element(By.XPATH, "//*[@id='to-top']").click()
 
-    actions = ActionChains(driver)
-    block = driver.find_element(By.XPATH, "//*[@id='moveMeHeader']")
-    actions.click_and_hold(block).move_by_offset(1500, 0).pause(3).perform()
-    now_date = datetime.datetime.now().strftime("%Y.%m.%d.%H.%M.%S.")
-    name_screenshot = 'screenshot-' + now_date + '.png'
-    driver.save_screenshot('screenshots/' + name_screenshot)
 
 
 

@@ -3189,3 +3189,190 @@ Stacktrace:
 	BaseThreadInitThunk [0x00007FFEB92B257D+29]
 	RtlUserThreadStart [0x00007FFEBAAAAA58+40]
 
+2024-03-24 23:31:46,179 - ERROR - An exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='post-1023']/div/div[6]/div/div/div/div/div/div[1]//div[1]/div"}
+  (Session info: chrome=122.0.6261.131); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF67008AD32+56930]
+	(No symbol) [0x00007FF66FFFF632]
+	(No symbol) [0x00007FF66FEB42E5]
+	(No symbol) [0x00007FF66FEF98ED]
+	(No symbol) [0x00007FF66FEF9A2C]
+	(No symbol) [0x00007FF66FF3A967]
+	(No symbol) [0x00007FF66FF1BCDF]
+	(No symbol) [0x00007FF66FF381E2]
+	(No symbol) [0x00007FF66FF1BA43]
+	(No symbol) [0x00007FF66FEED438]
+	(No symbol) [0x00007FF66FEEE4D1]
+	GetHandleVerifier [0x00007FF670406ABD+3709933]
+	GetHandleVerifier [0x00007FF67045FFFD+4075821]
+	GetHandleVerifier [0x00007FF67045818F+4043455]
+	GetHandleVerifier [0x00007FF670129766+706710]
+	(No symbol) [0x00007FF67000B90F]
+	(No symbol) [0x00007FF670006AF4]
+	(No symbol) [0x00007FF670006C4C]
+	(No symbol) [0x00007FF66FFF6904]
+	BaseThreadInitThunk [0x00007FFEB92B257D+29]
+	RtlUserThreadStart [0x00007FFEBAAAAA58+40]
+
+2024-03-24 23:31:46,179 - ERROR - Full traceback:
+Traceback (most recent call last):
+  File "C:\Users\irakl.IRAKLI-USER1324\Desktop\test-automation\test_10.py", line 63, in <module>
+    pin = driver.find_element(By.XPATH, "//*[@id='post-1023']/div/div[6]/div/div/div/div/div/div[1]//div[1]/div")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\irakl.IRAKLI-USER1324\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\irakl.IRAKLI-USER1324\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\irakl.IRAKLI-USER1324\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='post-1023']/div/div[6]/div/div/div/div/div/div[1]//div[1]/div"}
+  (Session info: chrome=122.0.6261.131); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF67008AD32+56930]
+	(No symbol) [0x00007FF66FFFF632]
+	(No symbol) [0x00007FF66FEB42E5]
+	(No symbol) [0x00007FF66FEF98ED]
+	(No symbol) [0x00007FF66FEF9A2C]
+	(No symbol) [0x00007FF66FF3A967]
+	(No symbol) [0x00007FF66FF1BCDF]
+	(No symbol) [0x00007FF66FF381E2]
+	(No symbol) [0x00007FF66FF1BA43]
+	(No symbol) [0x00007FF66FEED438]
+	(No symbol) [0x00007FF66FEEE4D1]
+	GetHandleVerifier [0x00007FF670406ABD+3709933]
+	GetHandleVerifier [0x00007FF67045FFFD+4075821]
+	GetHandleVerifier [0x00007FF67045818F+4043455]
+	GetHandleVerifier [0x00007FF670129766+706710]
+	(No symbol) [0x00007FF67000B90F]
+	(No symbol) [0x00007FF670006AF4]
+	(No symbol) [0x00007FF670006C4C]
+	(No symbol) [0x00007FF66FFF6904]
+	BaseThreadInitThunk [0x00007FFEB92B257D+29]
+	RtlUserThreadStart [0x00007FFEBAAAAA58+40]
+
+2024-03-24 23:32:00,599 - INFO - The script executed successfully
+2024-03-24 23:33:48,458 - ERROR - An exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='post-1023']/div/div[6]/div/div/div/div/div/div[1]//div[1]/div"}
+  (Session info: chrome=122.0.6261.131); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF67008AD32+56930]
+	(No symbol) [0x00007FF66FFFF632]
+	(No symbol) [0x00007FF66FEB42E5]
+	(No symbol) [0x00007FF66FEF98ED]
+	(No symbol) [0x00007FF66FEF9A2C]
+	(No symbol) [0x00007FF66FF3A967]
+	(No symbol) [0x00007FF66FF1BCDF]
+	(No symbol) [0x00007FF66FF381E2]
+	(No symbol) [0x00007FF66FF1BA43]
+	(No symbol) [0x00007FF66FEED438]
+	(No symbol) [0x00007FF66FEEE4D1]
+	GetHandleVerifier [0x00007FF670406ABD+3709933]
+	GetHandleVerifier [0x00007FF67045FFFD+4075821]
+	GetHandleVerifier [0x00007FF67045818F+4043455]
+	GetHandleVerifier [0x00007FF670129766+706710]
+	(No symbol) [0x00007FF67000B90F]
+	(No symbol) [0x00007FF670006AF4]
+	(No symbol) [0x00007FF670006C4C]
+	(No symbol) [0x00007FF66FFF6904]
+	BaseThreadInitThunk [0x00007FFEB92B257D+29]
+	RtlUserThreadStart [0x00007FFEBAAAAA58+40]
+
+2024-03-24 23:33:48,459 - ERROR - Full traceback:
+Traceback (most recent call last):
+  File "C:\Users\irakl.IRAKLI-USER1324\Desktop\test-automation\test_10.py", line 63, in <module>
+    pin = driver.find_element(By.XPATH, "//*[@id='post-1023']/div/div[6]/div/div/div/div/div/div[1]//div[1]/div")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\irakl.IRAKLI-USER1324\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\irakl.IRAKLI-USER1324\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\irakl.IRAKLI-USER1324\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='post-1023']/div/div[6]/div/div/div/div/div/div[1]//div[1]/div"}
+  (Session info: chrome=122.0.6261.131); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF67008AD32+56930]
+	(No symbol) [0x00007FF66FFFF632]
+	(No symbol) [0x00007FF66FEB42E5]
+	(No symbol) [0x00007FF66FEF98ED]
+	(No symbol) [0x00007FF66FEF9A2C]
+	(No symbol) [0x00007FF66FF3A967]
+	(No symbol) [0x00007FF66FF1BCDF]
+	(No symbol) [0x00007FF66FF381E2]
+	(No symbol) [0x00007FF66FF1BA43]
+	(No symbol) [0x00007FF66FEED438]
+	(No symbol) [0x00007FF66FEEE4D1]
+	GetHandleVerifier [0x00007FF670406ABD+3709933]
+	GetHandleVerifier [0x00007FF67045FFFD+4075821]
+	GetHandleVerifier [0x00007FF67045818F+4043455]
+	GetHandleVerifier [0x00007FF670129766+706710]
+	(No symbol) [0x00007FF67000B90F]
+	(No symbol) [0x00007FF670006AF4]
+	(No symbol) [0x00007FF670006C4C]
+	(No symbol) [0x00007FF66FFF6904]
+	BaseThreadInitThunk [0x00007FFEB92B257D+29]
+	RtlUserThreadStart [0x00007FFEBAAAAA58+40]
+
+2024-03-24 23:34:13,860 - ERROR - An exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='post-1023']/div/div[6]/div/div/div/div/div/div[1]//div[1]/div"}
+  (Session info: chrome=122.0.6261.131); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF67008AD32+56930]
+	(No symbol) [0x00007FF66FFFF632]
+	(No symbol) [0x00007FF66FEB42E5]
+	(No symbol) [0x00007FF66FEF98ED]
+	(No symbol) [0x00007FF66FEF9A2C]
+	(No symbol) [0x00007FF66FF3A967]
+	(No symbol) [0x00007FF66FF1BCDF]
+	(No symbol) [0x00007FF66FF381E2]
+	(No symbol) [0x00007FF66FF1BA43]
+	(No symbol) [0x00007FF66FEED438]
+	(No symbol) [0x00007FF66FEEE4D1]
+	GetHandleVerifier [0x00007FF670406ABD+3709933]
+	GetHandleVerifier [0x00007FF67045FFFD+4075821]
+	GetHandleVerifier [0x00007FF67045818F+4043455]
+	GetHandleVerifier [0x00007FF670129766+706710]
+	(No symbol) [0x00007FF67000B90F]
+	(No symbol) [0x00007FF670006AF4]
+	(No symbol) [0x00007FF670006C4C]
+	(No symbol) [0x00007FF66FFF6904]
+	BaseThreadInitThunk [0x00007FFEB92B257D+29]
+	RtlUserThreadStart [0x00007FFEBAAAAA58+40]
+
+2024-03-24 23:34:13,861 - ERROR - Full traceback:
+Traceback (most recent call last):
+  File "C:\Users\irakl.IRAKLI-USER1324\Desktop\test-automation\test_10.py", line 69, in <module>
+    pin = driver.find_element(By.XPATH, "//*[@id='post-1023']/div/div[6]/div/div/div/div/div/div[1]//div[1]/div")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\irakl.IRAKLI-USER1324\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\irakl.IRAKLI-USER1324\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\irakl.IRAKLI-USER1324\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='post-1023']/div/div[6]/div/div/div/div/div/div[1]//div[1]/div"}
+  (Session info: chrome=122.0.6261.131); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF67008AD32+56930]
+	(No symbol) [0x00007FF66FFFF632]
+	(No symbol) [0x00007FF66FEB42E5]
+	(No symbol) [0x00007FF66FEF98ED]
+	(No symbol) [0x00007FF66FEF9A2C]
+	(No symbol) [0x00007FF66FF3A967]
+	(No symbol) [0x00007FF66FF1BCDF]
+	(No symbol) [0x00007FF66FF381E2]
+	(No symbol) [0x00007FF66FF1BA43]
+	(No symbol) [0x00007FF66FEED438]
+	(No symbol) [0x00007FF66FEEE4D1]
+	GetHandleVerifier [0x00007FF670406ABD+3709933]
+	GetHandleVerifier [0x00007FF67045FFFD+4075821]
+	GetHandleVerifier [0x00007FF67045818F+4043455]
+	GetHandleVerifier [0x00007FF670129766+706710]
+	(No symbol) [0x00007FF67000B90F]
+	(No symbol) [0x00007FF670006AF4]
+	(No symbol) [0x00007FF670006C4C]
+	(No symbol) [0x00007FF66FFF6904]
+	BaseThreadInitThunk [0x00007FFEB92B257D+29]
+	RtlUserThreadStart [0x00007FFEBAAAAA58+40]
+
